@@ -8,13 +8,12 @@ body{
     background-size: cover;
 }
 form{
-    width: 150px;
+    width: 15%;
     margin-left: 20%;
     margin-top: 15%;
     margin-right: 25%;
     margin-bottom: 20px;
     display : flex;
-    flex-direction : row-reverse;
     justify-content:Space-between;
   }
 }
