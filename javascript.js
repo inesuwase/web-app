@@ -23,7 +23,6 @@ var choice = document.getElementById('select').value;
 
 
 
-
  } else if (choice === "female") {
 
 
