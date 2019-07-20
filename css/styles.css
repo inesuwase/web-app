@@ -6,13 +6,13 @@ p{
     font-style: bold;
 }
 body{ 
-    background-image: url(""https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKHyy_fsMHgrVV62ixy8kXSL2ORcCfOKkSQTsYWfFCA-hUEZr);
+    background-image: url("https://www.graphic.com.gh/images/2018/may/ghanaians_usa.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 form{
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 50px;
+    margin-left: 50px;
     position: relative;
 }
 .jumbotron{
