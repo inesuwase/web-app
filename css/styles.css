@@ -8,12 +8,9 @@ body{
     background-size: cover;
 }
 form{
-    width: 15%;
-    margin-left: 20%;
-    margin-top: 15%;
-    margin-right: 25%;
-    margin-bottom: 20px;
-    display : flex;
-    justify-content:Space-between;
-  }
+    position: relative;
+    flex-direction: row;
+    display: block;
+    line-height: 15px;
+    display: flex;
 }
