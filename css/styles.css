@@ -14,3 +14,7 @@ form{
     line-height: 15px;
     display: flex;
 }
+.jumbotron{
+    tect-align: center;
+    padding: 30px;
+}
