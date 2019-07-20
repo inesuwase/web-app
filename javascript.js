@@ -9,14 +9,14 @@ function birthdates() {
  document.getElementById('result').innerHTML = day[Math.round(dayoftheweek)];
  var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw" , "Kof", "Kwame"];
 var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-var choice = document.getElementById('select').value;
-if (d>31 || d>1){
+var choice = document.querySelector("input[name='gender']:checked").value;
+if ((d>31) && (d>1)){
     alert("This day doesn't exist");
 }
-if (m>12 || m<1){
+if ((m>12) && (m<1)){
     alert("This month doesn't exist");
 }
-if (y>2019 || y<1){
+if ((y>2019) && (y<1)){
     alert("this year doesn't exist");
 }
  if (choice === "male") {
@@ -30,4 +30,4 @@ if (y>2019 || y<1){
  else {
      console.log("invalid outuput");
  }
- 
+}
