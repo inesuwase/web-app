@@ -2,19 +2,20 @@ h1{
     text-align: center;
     margin-top: 15px;
 }
+p{
+    font-style: bold;
+}
 body{ 
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKHyy_fsMHgrVV62ixy8kXSL2ORcCfOKkSQTsYWfFCA-hUEZr");
     background-repeat: no-repeat;
     background-size: cover;
 }
 form{
+    margin-right: 150px;
+    margin-left: 150px;
     position: relative;
-    flex-direction: row;
-    display: block;
-    line-height: 15px;
-    display: flex;
 }
 .jumbotron{
-    tect-align: center;
+    text-align: center;
     padding: 30px;
 }
