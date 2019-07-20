@@ -13,7 +13,6 @@ var choice = document.getElementById('select').value;
 if (d>31 || d>1){
     alert("This day doesn't exist");
 }
-
 if (m>12 || m<1){
     alert("This month doesn't exist");
 }
